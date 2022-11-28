@@ -220,7 +220,7 @@ WIP...
   - [ ] 滑动切换标签组件
   - [x] 图标组件
   - [ ] 加载更多
-  - [ ] 空内容
+  - [x] 空内容
   - [x] 步进器
   - [x] 返回顶部
   - [x] 倒计时
@@ -354,6 +354,11 @@ tree -a -L 3 -I '*node_modules*|*dist*|*.git'
 ```
 </details>
 
+### 外部设计资源引用
+
+[图标](https://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=42837)
+[插画1](https://www.iconfont.cn/illustrations/detail?spm=a313x.7781069.1998910419.dc64b3430&cid=41775)
+[插画2](https://www.iconfont.cn/illustrations/detail?spm=a313x.7781069.1998910419.d9df05512&cid=38302)
 
 ## 开发
 
