@@ -212,7 +212,7 @@ WIP...
 
 - 基础组件
   - [x] 按钮组件，[文档](./docs/components/sc-button.md)
-  - [ ] 弹框组件
+  - [x] 弹框组件，[文档](./docs/components/sc-popup.md)
   - [ ] 顶部导航栏组件
   - [ ] 瀑布流组件
   - [ ] 标签组件
