@@ -7,16 +7,124 @@
   },
   "pages": [
     {
-      "path": "pages/index/index",
+      "path": "pages/index/index/index",
       "style": {
-        "navigationBarTitleText": "SCMM"
+        "navigationBarTitleText": "SCMM",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/order/index/index",
+      "style": {
+        "navigationBarTitleText": "订单",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/order/checkout/index",
+      "style": {
+        "navigationBarTitleText": "确认订单",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/order/detail/index",
+      "style": {
+        "navigationBarTitleText": "订单详情",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/order/success/index",
+      "style": {
+        "navigationBarTitleText": "支付成功",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/mine/index/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/about/index",
+      "style": {
+        "navigationBarTitleText": "关于我们",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/mine/profile/index",
+      "style": {
+        "navigationBarTitleText": "编辑信息",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/product/index/index",
+      "style": {
+        "navigationBarTitleText": "商品列表",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/product/detail/index",
+      "style": {
+        "navigationBarTitleText": "商品详情",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/auth/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
       }
     }
   ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#385aff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index/index",
+        "iconPath": "static/images/tabs/ic_car.png",
+        "selectedIconPath": "static/images/tabs/ic_car_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/index/index",
+        "iconPath": "static/images/tabs/ic_order.png",
+        "selectedIconPath": "static/images/tabs/ic_order_s.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/mine/index/index",
+        "iconPath": "static/images/tabs/ic_mine.png",
+        "selectedIconPath": "static/images/tabs/ic_mine_s.png",
+        "text": "我的"
+      }
+    ]
+  },
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "SCMM",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#F8F8F8"
   }
 }
