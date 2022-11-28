@@ -4,7 +4,7 @@
 // @example: <sc-nav-bar fixed placeholder title="标题标题标题标题标题标题标题标题" :status-bar-height="0" />
 
 import { navBarProps } from './props'
-import { tryNavigateBack } from '@/utils/route'
+import { tryNavigateBack } from '@/utils'
 
 const props = defineProps({
   ...navBarProps,
