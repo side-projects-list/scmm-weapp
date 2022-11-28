@@ -1,7 +1,7 @@
 <script setup lang="ts" name="sc-button">
 // 按钮组件
 import { buttonProps } from './props'
-import type { ChooseAvatarRes, GetPhoneNumberRes } from '#/index'
+import type { ChooseAvatarRes, GetPhoneNumberRes } from './types'
 
 const props = defineProps({
   ...buttonProps,

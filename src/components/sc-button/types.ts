@@ -1,4 +1,4 @@
-/**获取手机号接口返回类型 */
+/** 获取手机号接口返回类型 */
 export interface GetPhoneNumberRes {
   code: string
   encryptedData: string
@@ -6,7 +6,7 @@ export interface GetPhoneNumberRes {
   iv: string
 }
 
-/**微信小程序 chooseavatar 接口返回类型 */
+/** 微信小程序 chooseavatar 接口返回类型 */
 export interface ChooseAvatarRes {
   avatarUrl: string
 }
