@@ -1,4 +1,10 @@
 {
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "sc-(.*)": "@/components/sc-$1/sc-$1.vue"
+    }
+  },
   "pages": [
     {
       "path": "pages/index/index",
