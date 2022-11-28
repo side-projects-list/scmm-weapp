@@ -11,6 +11,7 @@ export default defineConfig({
     alias: {
       '@/': `${path.resolve(__dirname, 'src')}/`,
       '#/': `${path.resolve(__dirname, 'types')}/`,
+      '$/': `${path.resolve(__dirname, 'mock')}/`,
     },
   },
   plugins: [
@@ -43,7 +44,7 @@ export default defineConfig({
         },
       ],
       dts: 'src/auto-imports.d.ts',
-      dirs: ['src/stores/modules'],
+      dirs: ['src/stores/modules', 'src/apis'],
     }),
   ],
 })

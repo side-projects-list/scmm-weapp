@@ -9,7 +9,8 @@
     "jsx": "preserve",
     "paths": {
       "@/*": ["src/*"],
-      "#/*": ["types/*"]
+      "#/*": ["types/*"],
+      "$/*": ["mock/*"]
     },
     "sourceMap": true,
     "resolveJsonModule": true,
