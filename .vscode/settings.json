@@ -1,0 +1,13 @@
+{
+    "prettier.enable": false,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.tabSize": 2,
+    "cSpell.words": [
+        "dcloudio",
+        "pinia",
+        "SCMM"
+    ],
+}
