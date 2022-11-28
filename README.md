@@ -214,7 +214,7 @@ WIP...
   - [x] 按钮组件，[文档](./docs/components/sc-button.md)
   - [x] 弹框组件，[文档](./docs/components/sc-popup.md)
   - [x] 顶部导航栏组件
-  - [ ] 瀑布流组件
+  - [x] 瀑布流组件
   - [x] 标签组件
   - [ ] 二维码组件
   - [ ] 滑动切换标签组件
