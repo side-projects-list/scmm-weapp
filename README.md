@@ -228,9 +228,9 @@ WIP...
 - 业务组件
   - [ ] 订单
   - [ ] 订单商品
-  - [ ] 商品
+  - [x] 商品
     - [x] 商品列表 - 商品，[文档](./docs/components/sc-product.md)
-    - [ ] 搜索结果 - 商品
+    - [x] 搜索结果 - 商品，[文档](./docs/components/sc-search-product.md)
 
 ### 代码规范
 
