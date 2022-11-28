@@ -32,5 +32,11 @@ declare global {
   const setActivePinia: typeof import('pinia')['setActivePinia']
   const setMapStoreSuffix: typeof import('pinia')['setMapStoreSuffix']
   const storeToRefs: typeof import('pinia')['storeToRefs']
+  const useAppStore: typeof import('./stores/modules/app-store')['useAppStore']
+  const useOrderStore: typeof import('./stores/modules/order-store')['useOrderStore']
+  const useSetupAppStore: typeof import('./stores/modules/app-store')['useSetupAppStore']
+  const useSetupOrderStore: typeof import('./stores/modules/order-store')['useSetupOrderStore']
+  const useSetupUserStore: typeof import('./stores/modules/user-store')['useSetupUserStore']
+  const useUserStore: typeof import('./stores/modules/user-store')['useUserStore']
   const watch: typeof import('vue')['watch']
 }

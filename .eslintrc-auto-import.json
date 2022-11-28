@@ -31,6 +31,12 @@
     "setActivePinia": true,
     "setMapStoreSuffix": true,
     "storeToRefs": true,
+    "useAppStore": true,
+    "useOrderStore": true,
+    "useSetupAppStore": true,
+    "useSetupOrderStore": true,
+    "useSetupUserStore": true,
+    "useUserStore": true,
     "watch": true
   }
 }

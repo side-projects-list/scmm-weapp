@@ -1,9 +1,17 @@
 <script setup lang="ts">
 import { onError, onHide, onLaunch, onShow, onUnhandledRejection } from '@dcloudio/uni-app'
 
+const appStore = useSetupAppStore()
+const userStore = useSetupUserStore()
+
 onLaunch(() => {
   // eslint-disable-next-line no-console
   console.log('App Launch')
+
+  // 缓存系统信息
+  appStore.setSystemInfoCache()
+  // 创建临时用户
+  userStore.generateFakeUser()
 })
 onShow(() => {
   // eslint-disable-next-line no-console
