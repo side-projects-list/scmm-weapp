@@ -1,4 +1,5 @@
 import type { PropType } from 'vue'
+import type { OrderObj } from '#/index'
 
 export const popupQrCodeProps = {
   modelValue: {
@@ -11,7 +12,7 @@ export const popupQrCodeProps = {
     default: '',
   },
   itemData: {
-    type: Object as PropType<any>,
+    type: Object as PropType<OrderObj>,
     default: () => {
       return {
         id: 6,
