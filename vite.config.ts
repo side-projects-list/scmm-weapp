@@ -23,7 +23,7 @@ export default defineConfig({
       imports: [
         'pinia',
         {
-          'vue': ['ref', 'computed', 'reactive', 'watch', 'onMounted'],
+          'vue': ['ref', 'computed', 'reactive', 'watch', 'onMounted', 'onBeforeMount'],
           '@dcloudio/uni-app': [
             'onError',
             'onHide',

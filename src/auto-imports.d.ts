@@ -11,6 +11,7 @@ declare global {
   const mapState: typeof import('pinia')['mapState']
   const mapStores: typeof import('pinia')['mapStores']
   const mapWritableState: typeof import('pinia')['mapWritableState']
+  const onBeforeMount: typeof import('vue')['onBeforeMount']
   const onError: typeof import('@dcloudio/uni-app')['onError']
   const onHide: typeof import('@dcloudio/uni-app')['onHide']
   const onLaunch: typeof import('@dcloudio/uni-app')['onLaunch']

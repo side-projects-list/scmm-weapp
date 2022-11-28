@@ -10,6 +10,7 @@
     "mapState": true,
     "mapStores": true,
     "mapWritableState": true,
+    "onBeforeMount": true,
     "onError": true,
     "onHide": true,
     "onLaunch": true,
