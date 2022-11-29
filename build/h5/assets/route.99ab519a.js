@@ -1,0 +1,1 @@
+import{N as r,O as t,P as a,Q as s,R as n,T as e}from"./index.4b002d2b.js";function u(r){return"string"==typeof r?n({url:r}):uni[r.mode]({url:`${r.url}${r.params||""}`,delta:r.delta})}function i(){return r().length<2?t({url:a}):s({})}function l(r){return r=r.split("?")[0],e.includes(r)?"switchTab":"redirectTo"}export{l as a,u as r,i as t};

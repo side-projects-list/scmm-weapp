@@ -1,0 +1,1 @@
+import{a7 as t,r as a,a8 as e}from"./index.4b002d2b.js";const o=t("orderStore",(()=>{const t=a();return{checkoutData:t,getCheckoutData:function(){return t.value},setCheckoutData:function(a){t.value=a},clearCheckoutData:function(){t.value=void 0}}}),{persist:{paths:["checkoutData"]}});function u(){return o(e)}export{u};
