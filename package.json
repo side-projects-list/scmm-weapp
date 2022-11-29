@@ -1,6 +1,7 @@
 {
   "name": "scmm",
   "version": "0.0.1",
+  "packageManager": "pnpm@7.17.0",
   "scripts": {
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",

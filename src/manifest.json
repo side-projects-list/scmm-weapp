@@ -64,6 +64,9 @@
     "usingComponents": true
   },
   "h5": {
+    "router": {
+      "base": "/scmm-weapp/"
+    },
     "devServer": {
       "disableHostCheck": true,
       "port": 10086,
