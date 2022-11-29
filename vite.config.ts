@@ -44,7 +44,7 @@ export default defineConfig({
         },
       ],
       dts: 'src/auto-imports.d.ts',
-      dirs: ['src/stores/modules', 'src/apis'],
+      dirs: ['src/stores/modules', 'src/apis', 'src/composables'],
     }),
   ],
 })
