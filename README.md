@@ -231,6 +231,7 @@ WIP...
   - [x] 商品
     - [x] 商品列表 - 商品，[文档](./docs/components/sc-product.md)
     - [x] 搜索结果 - 商品，[文档](./docs/components/sc-search-product.md)
+  - [x] 提交栏，[文档](./docs/components/sc-submit-bar.md)
 
 ### 代码规范
 
