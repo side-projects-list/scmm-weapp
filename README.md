@@ -226,7 +226,7 @@ WIP...
   - [x] 倒计时
 
 - 业务组件
-  - [ ] 订单
+  - [x] 订单，[文档](./docs/components/sc-order.md)
   - [x] 订单商品
   - [x] 商品
     - [x] 商品列表 - 商品，[文档](./docs/components/sc-product.md)
