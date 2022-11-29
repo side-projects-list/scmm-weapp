@@ -2,6 +2,24 @@
 
 **简易汽车保养商城**（Simple Car Maintenance Mall，简称：SCMM），主要能实现商品预览、订单创建以及使用。运行于 H5 以及微信小程序。
 
+## 预览图
+
+|首页|订单页|我的|商品详情|
+|---|---|---|---|
+|![首页](./docs/images/app/1-1.png)|![订单页](./docs/images/app/3-1.png)|![我的](./docs/images/app/4-1.png)|![商品详情](./docs/images/app/2-3.png)|
+
+
+<details><summary>更多</summary>
+
+|1|2|3|4|
+|:---:|:---:|:---:|:---:|
+|![首页1](./docs/images/app/1-2.png)|![订单页](./docs/images/app/3-2.png)|![我的](./docs/images/app/4-2.png)|![商品搜索](./docs/images/app/2-1.png)|
+|![商品搜索2](./docs/images/app/2-2.png)|![商品详情](./docs/images/app/2-4.png)|![确认订单](./docs/images/app/2-5.png)|![支付成功](./docs/images/app/2-6.png)|
+|![订单详情](./docs/images/app/3-3.png)|![订单详情](./docs/images/app/3-4.png)|![信息编辑页](./docs/images/app/4-3.png)||
+
+</details>
+
+
 ## 需求规划
 
 - 实现一个汽车保养服务电子商城(B2C)移动端界面
@@ -200,8 +218,6 @@
 
 </details>
 
-### 项目工程化
-WIP...
 
 ### 模块化
 遵循单一出口/入口原则。
