@@ -39,6 +39,7 @@ declare global {
   const useAppStore: typeof import('./stores/modules/app-store')['useAppStore']
   const useHooks: typeof import('./composables/hook-handler')['useHooks']
   const useOrderStore: typeof import('./stores/modules/order-store')['useOrderStore']
+  const usePopupQrCode: typeof import('./composables/popup-qr-code')['usePopupQrCode']
   const useScroll: typeof import('./composables/scroll')['useScroll']
   const useSetupAppStore: typeof import('./stores/modules/app-store')['useSetupAppStore']
   const useSetupOrderStore: typeof import('./stores/modules/order-store')['useSetupOrderStore']

@@ -38,6 +38,7 @@
     "useAppStore": true,
     "useHooks": true,
     "useOrderStore": true,
+    "usePopupQrCode": true,
     "useScroll": true,
     "useSetupAppStore": true,
     "useSetupOrderStore": true,
