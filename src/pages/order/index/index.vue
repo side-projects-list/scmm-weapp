@@ -29,7 +29,7 @@ const tabsList = ref<TabItemObj<OrderObj[], OrderStatus>[]>([
     itemsList: [],
   },
   {
-    name: '未付款',
+    name: '待支付',
     triggered: false,
     _freshing: false,
     loadingStatus: 'load-more',
