@@ -332,24 +332,84 @@ tree -a -L 3 -I '*node_modules*|*dist*|*.git'
 ├── CHANGELOG.md
 ├── README.md
 ├── commitlint.config.js
-├── docs
+├── docs # 项目文档说明
+│   ├── components # 项目组件文档
+│   │   ├── sc-button.md
+│   │   ├── sc-order.md
+│   │   ├── sc-popup.md
+│   │   ├── sc-product.md
+│   │   ├── sc-search-product.md
+│   │   └── sc-submit-bar.md
 │   └── images
 ├── index.html
+├── mock # 模拟数据模块
+│   ├── index.ts
+│   ├── order.ts
+│   └── product.ts
 ├── package.json
 ├── pnpm-lock.yaml
 ├── src
 │   ├── App.vue
+│   ├── apis # 数据请求模块
+│   │   ├── index.ts
+│   │   ├── order.ts
+│   │   └── product.ts
 │   ├── auto-imports.d.ts
+│   ├── components # 基础组件
+│   │   ├── sc-button
+│   │   ├── sc-countdown
+│   │   ├── sc-empty
+│   │   ├── sc-icon
+│   │   ├── sc-load-more
+│   │   ├── sc-nav-bar
+│   │   ├── sc-number-box
+│   │   ├── sc-popup
+│   │   ├── sc-popup-qr-code
+│   │   ├── sc-product
+│   │   ├── sc-scroll-top
+│   │   ├── sc-swiper-tabs
+│   │   ├── sc-tabs
+│   │   └── sc-waterfall
+│   ├── composables # 项目相关功能组合式 API
+│   │   ├── hook-handler.ts # Uni-App 生命周期钩子相关处理 函数
+│   │   ├── index.ts
+│   │   ├── popup-qr-code.ts # 弹框显示核销码的组合式 API
+│   │   ├── scroll.ts # 顶部导航栏背景色相关的页面滚动组合式API
+│   │   └── swiper-tabs.ts # 滑动切换标签的组合式 API
+│   ├── constants # 项目全局常量
+│   │   └── index.ts
+│   ├── enums # 枚举
+│   │   ├── index.ts
+│   │   └── order.ts
 │   ├── env.d.ts
 │   ├── main.ts
 │   ├── manifest.json
-│   ├── pages
-│   │   └── index
+│   ├── pages # 应用页面
+│   │   ├── auth # 鉴权认证模块
+│   │   ├── index # 首页
+│   │   ├── mine # 个人中心模块
+│   │   ├── order # 订单模块
+│   │   └── product # 商品模块
 │   ├── pages.json
 │   ├── static
-│   │   └── logo.png
-│   └── uni.scss
+│   │   ├── images
+│   │   └── scmm-logo.png
+│   ├── stores # 全局状态管理模块
+│   │   ├── index.ts
+│   │   └── modules
+│   ├── uni.scss
+│   └── utils # 工具类
+│       ├── index.ts
+│       ├── is.ts
+│       ├── route.ts
+│       ├── text.ts
+│       └── uni-qrcode.ts
 ├── tsconfig.json
+├── types # 类型声明
+│   ├── index.d.ts
+│   ├── order.d.ts
+│   ├── product.d.ts
+│   └── user.d.ts
 ├── unocss.config.ts
 └── vite.config.ts
 ```
