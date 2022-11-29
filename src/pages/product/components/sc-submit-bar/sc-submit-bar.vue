@@ -19,14 +19,14 @@ const emits = defineEmits<{
     <view class="mr-10rpx flex-shrink-0">
       <slot name="action">
         <!-- #ifdef MP-WEIXIN -->
-        <button openType="contact" class="m-none p-none bg-transparent border-0 outline-0 action-button reset-button">
-          <view class="flex flex-col items-center px-22rpx">
+        <sc-button width="100rpx" height="92rpx" margin="0" padding="0" background="transparent" open-type="contact" class="m-none p-none bg-transparent border-0 outline-0 action-button">
+          <view class="flex flex-col items-center">
             <image :src="actionIcon" class="w-48rpx h-48rpx" />
             <view class="mt-8rpx text-28rpx text-black leading-none">
               {{ actionText }}
             </view>
           </view>
-        </button>
+        </sc-button>
         <!-- #endif -->
         <!-- #ifndef MP-WEIXIN -->
         <view class="flex flex-col items-center px-22rpx" @click="platformDoseNotSupportContact">
