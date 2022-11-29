@@ -43,6 +43,7 @@
     "useSetupAppStore": true,
     "useSetupOrderStore": true,
     "useSetupUserStore": true,
+    "useSwiperTabs": true,
     "useUserStore": true,
     "watch": true
   }

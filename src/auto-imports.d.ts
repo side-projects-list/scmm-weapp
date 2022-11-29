@@ -44,6 +44,7 @@ declare global {
   const useSetupAppStore: typeof import('./stores/modules/app-store')['useSetupAppStore']
   const useSetupOrderStore: typeof import('./stores/modules/order-store')['useSetupOrderStore']
   const useSetupUserStore: typeof import('./stores/modules/user-store')['useSetupUserStore']
+  const useSwiperTabs: typeof import('./composables/swiper-tabs')['useSwiperTabs']
   const useUserStore: typeof import('./stores/modules/user-store')['useUserStore']
   const watch: typeof import('vue')['watch']
 }
