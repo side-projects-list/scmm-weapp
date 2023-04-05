@@ -72,7 +72,7 @@ onPullDownRefresh(() => {
 
         <!-- 会员/订单入口 -->
         <view class="flex text-white mt-48rpx">
-          <view class="mr-80rpx" hover-class="opacity-80" hover-start-time="0" hover-stay-time="30" @click="handleNavigation('/pages/order/list/index?current=1')">
+          <view class="mr-80rpx" hover-class="opacity-80" hover-start-time="0" hover-stay-time="30" @click="handleNavigation('/pages/order/index/index?current=1')">
             <view class="text-24rpx leading-none">
               待支付订单
             </view>
@@ -80,7 +80,7 @@ onPullDownRefresh(() => {
               {{ itemData.unpaid }}
             </view>
           </view>
-          <view class="mr-80rpx" hover-class="opacity-80" hover-start-time="0" hover-stay-time="30" @click="handleNavigation('/pages/order/list/index?current=2')">
+          <view class="mr-80rpx" hover-class="opacity-80" hover-start-time="0" hover-stay-time="30" @click="handleNavigation('/pages/order/index/index?current=2')">
             <view class="text-24rpx leading-none">
               待使用订单
             </view>
