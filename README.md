@@ -2,6 +2,8 @@
 
 **简易汽车保养商城**（Simple Car Maintenance Mall，简称：SCMM），主要能实现商品预览、订单创建以及使用。运行于 H5 以及微信小程序。
 
+> 项目地址： [https://github.com/side-projects-list/scmm-weapp](https://github.com/side-projects-list/scmm-weapp)
+
 ## 预览图
 
 |首页|订单页|我的|商品详情|
@@ -227,8 +229,8 @@ WIP...
 ### 组件化
 
 - 基础组件
-  - [x] 按钮组件，[文档](./docs/components/sc-button.md)
-  - [x] 弹框组件，[文档](./docs/components/sc-popup.md)
+  - [x] 按钮组件，[文档](https://github.com/side-projects-list/scmm-weapp/blob/main/docs/components/sc-button.md)
+  - [x] 弹框组件，[文档](https://github.com/side-projects-list/scmm-weapp/blob/main/docs/components/sc-popup.md)
   - [x] 顶部导航栏组件
   - [x] 瀑布流组件
   - [x] 标签组件
@@ -242,12 +244,12 @@ WIP...
   - [x] 倒计时
 
 - 业务组件
-  - [x] 订单，[文档](./docs/components/sc-order.md)
+  - [x] 订单，[文档](https://github.com/side-projects-list/scmm-weapp/blob/main/docs/components/sc-order.md)
   - [x] 订单商品
   - [x] 商品
-    - [x] 商品列表 - 商品，[文档](./docs/components/sc-product.md)
-    - [x] 搜索结果 - 商品，[文档](./docs/components/sc-search-product.md)
-  - [x] 提交栏，[文档](./docs/components/sc-submit-bar.md)
+    - [x] 商品列表 - 商品，[文档](https://github.com/side-projects-list/scmm-weapp/blob/main/docs/components/sc-product.md)
+    - [x] 搜索结果 - 商品，[文档](https://github.com/side-projects-list/scmm-weapp/blob/main/docs/components/sc-search-product.md)
+  - [x] 提交栏，[文档](https://github.com/side-projects-list/scmm-weapp/blob/main/docs/components/sc-submit-bar.md)
 
 ### 代码规范
 
