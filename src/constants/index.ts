@@ -1,3 +1,5 @@
+import defaultAvatar from '@/static/default-avatar.png'
+
 /** 首页路径 */
 export const HOME_PAGE_PATH = '/pages/index/index/index'
 
@@ -12,4 +14,4 @@ export const ERROR_COLOR = '#eb483f'
 export const LOGIN_CAPTCHA_CODE = '666666'
 
 /** 默认头像 */
-export const DEFAULT_AVATAR = 'https://cdn.v2ex.com/gravatar/?d=identicon'
+export const DEFAULT_AVATAR = defaultAvatar
