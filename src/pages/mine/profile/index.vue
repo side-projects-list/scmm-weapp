@@ -83,7 +83,7 @@ function handleLogin() {}
         <view class="text-gray-light">
           头像
         </view>
-        <view class="reset-button">
+        <view class="avatar reset-button">
           <button v-if="canUseChooseAvatar" open-type="chooseAvatar" @chooseavatar="handleChooseAvatar">
             <view class="w-112rpx h-112rpx flex items-center justify-center">
               <image v-if="userStore.getUserInfo()?.avatar" class="w-full h-full rounded-112rpx" :src="userStore.getUserInfo()!.avatar" mode="aspectFill" />
@@ -152,5 +152,12 @@ function handleLogin() {}
 </template>
 
 <style lang="scss" scoped>
-//.profile-index {}
+.profile-index {
+  .avatar.reset-button :deep(button) {
+    width: 112rpx !important;
+    border-radius: 50%;
+    outline: none;
+    padding: 0;
+  }
+}
 </style>
